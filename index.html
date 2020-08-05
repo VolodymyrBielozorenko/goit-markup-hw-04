@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+a<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -61,9 +61,11 @@
     </header>
     <main>
       <!--Герой-->
-      <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="btn">Заказать услугу</button>
+      <section class="hero overlay">
+        <div class="hero-box">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="btn">Заказать услугу</button>
+        </div>
       </section>
 
       <!--Особенности-->
@@ -71,32 +73,28 @@
         <div class="container">
           <h2 hidden class="section-title">Особенности</h2>
           <ul class="features-list list flexbox">
-            <li class="features-item">
-              <img src="./images/antenna.svg" alt="Антена" />
+            <li class="features-item icon-antenna">
               <h3 class="features-title">Внимание к деталям</h3>
               <p class="features-info">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="features-item">
-              <img src="./images/clock.svg" alt="Часы" />
+            <li class="features-item icon-clock">
               <h3 class="features-title">Пунктуальнотсь</h3>
               <p class="features-info">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="features-item">
-              <img src="./images/diagram.svg" alt="Диаграмма" />
+            <li class="features-item icon-diagram">
               <h3 class="features-title">Планирование</h3>
               <p class="features-info">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="features-item">
-              <img src="./images/astronaut.svg" alt="Астронавт" />
+            <li class="features-item icon-astronaut">
               <h3 class="features-title">Современные технологии</h3>
               <p class="features-info">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -459,7 +457,12 @@
             ><span>Web</span> Studio</a
           >
           <address class="company-address">
-            <p class="local-address">г. Киев, пр-т Леси Украинки, 26</p>
+            <!--<p class="local-address">г. Киев, пр-т Леси Украинки, 26</p>-->
+            <a
+              href="https://goo.gl/maps/EpCByRqpzJr25Uw86"
+              class="local-address link"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
             <a href="mailto:info@devstudio.com" class="address-link link"
               >info@devstudio.com</a
             >
@@ -511,6 +514,7 @@
         </div>
         <div class="footer-container footer-mailing">
           <b>Подпишитесь на рассылку</b>
+          <button type="button" class="btn btn-subscribe">Подписаться</button>
         </div>
       </div>
     </footer>
