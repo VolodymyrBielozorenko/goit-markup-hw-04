@@ -8,6 +8,7 @@
   --accent: #2196f3;
   --additional: #000000;
   --background-section: #f5f4fa;
+  --background-hero: #c4c4c4;
   --background-footer: rgb(47, 48, 58);
 }
 
@@ -202,13 +203,14 @@ b,
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--background-hero);
 
   background-image: linear-gradient(
       90deg,
-      rgba(47, 48, 58, 0.8) 0%,
-      rgba(47, 48, 58, 0.8) 100%
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
     ),
-    url(../images/header-img.jpg);
+    url(../images/header-img-new.jpg);
 }
 
 /* Features */
