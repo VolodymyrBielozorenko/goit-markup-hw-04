@@ -38,22 +38,24 @@
               <a
                 href="mailto:info@devstudio.com"
                 class="navigation-link navigation-contacts link"
-                ><img
-                  src="./images/envelope.svg"
-                  alt="Конверт"
-                  class="contacts-img"
-                />info@devstudio.com</a
               >
+                <svg class="icon-contacts" width="16" height="12">
+                  <use href="./images/sprite.svg#icon-envelope"></use>
+                </svg>
+
+                info@devstudio.com
+              </a>
             </li>
             <li class="contacts-item">
               <a
                 href="tel:+380961111111"
                 class="navigation-link navigation-contacts link"
-                ><img
-                  src="./images/smartphone.svg"
-                  alt="Смартфон"
-                  class="contacts-img"
-                />+38 096 111 11 11</a
+              >
+                <svg class="icon-contacts" width="10px" height="16px">
+                  <use href="./images/sprite.svg#icon-smartphone"></use>
+                </svg>
+
+                +38 096 111 11 11</a
               >
             </li>
           </ul>
@@ -210,7 +212,12 @@
             ><span>Web</span> Studio</a
           >
           <address class="company-address">
-            <p class="local-address">г. Киев, пр-т Леси Украинки, 26</p>
+            <!--<p class="local-address">г. Киев, пр-т Леси Украинки, 26</p>-->
+            <a
+              href="https://goo.gl/maps/EpCByRqpzJr25Uw86"
+              class="local-address link"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
             <a href="mailto:info@devstudio.com" class="address-link link"
               >info@devstudio.com</a
             >
@@ -220,48 +227,65 @@
           </address>
         </div>
         <div class="footer-container footer-links">
-          <b>Присоединяйтесь</b>
-          <ul class="fl-list list flexbox">
-            <li class="fl-item">
+          <b class="appeal">Присоединяйтесь</b>
+          <ul class="join-list list flexbox">
+            <li class="join-item">
               <a
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Ссылка Instagram"
-                ><img src="./images/logo-instagram.svg" alt="Логотип Instagram"
-              /></a>
+                class="join-link link"
+              >
+                <svg class="icon-join-link" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-logo-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="fl-item">
+            <li class="join-item">
               <a
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Ссылка Twitter"
-                ><img src="./images/logo-twitter.svg" alt="Логотип Twitter"
-              /></a>
+                class="join-link link"
+              >
+                <svg class="icon-join-link" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-logo-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="fl-item">
+            <li class="join-item">
               <a
                 href="https://facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Ссылка Facebook"
-                ><img src="./images/logo-facebook.svg" alt="Логотип Facebook"
-              /></a>
+                class="join-link link"
+              >
+                <svg class="icon-join-link" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-logo-facebook"></use>
+                </svg>
+              </a>
             </li>
-            <li class="fl-item">
+            <li class="join-item">
               <a
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Ссылка Linkedin"
-                ><img src="./images/logo-linkedin.svg" alt="Логотип Linkedin"
-              /></a>
+                class="join-link link"
+              >
+                <svg class="icon-join-link" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-logo-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
         <div class="footer-container footer-mailing">
-          <b>Подпишитесь на рассылку</b>
+          <b class="appeal">Подпишитесь на рассылку</b>
+          <button type="button" class="btn btn-subscribe">Подписаться</button>
         </div>
       </div>
     </footer>
