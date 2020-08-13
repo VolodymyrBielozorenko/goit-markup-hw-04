@@ -127,7 +127,7 @@ b,
   color: var(--white);
 }
 
-/* Header */
+/* Шапка страницы */
 
 .page-header {
   padding: 24px 0 25px 0;
@@ -163,6 +163,14 @@ b,
   color: var(--accent);
 }
 
+.studio {
+  color: var(--accent);
+}
+
+.portfolio {
+  color: var(--accent);
+}
+
 .contacts-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -185,7 +193,7 @@ b,
   fill: var(--accent);
 }
 
-/* Hero */
+/* Герой */
 
 .hero-box {
   padding: 200px 0;
@@ -228,7 +236,7 @@ b,
     url(../images/header-img-new.jpg);
 }
 
-/* Features */
+/* Особенности */
 
 .features-item {
   margin-right: 30px;
@@ -280,10 +288,9 @@ b,
   margin-bottom: 0;
 }
 
-/* Services */
+/* Услуги */
 
 .services {
-  background-color: darkgrey;
   padding-top: 0;
 }
 
@@ -305,7 +312,7 @@ b,
   margin: 0;
 }
 
-/* Team */
+/* Команда */
 
 .team {
   background-color: var(--background-section);
@@ -381,7 +388,7 @@ b,
   fill: var(--white);
 }
 
-/* Clients */
+/* Клиенты */
 
 .clients-list {
   justify-content: center;
@@ -419,7 +426,7 @@ b,
   fill: var(--accent);
 }
 
-/* Footer */
+/* Подвал страницы */
 
 .page-footer {
   background-color: var(--background-footer);
@@ -557,6 +564,12 @@ b,
   background: var(--white);
   border: 1px solid var(--portfolio-projects-border);
   box-sizing: border-box;
+}
+
+.projects-item:hover,
+.projects-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-item:nth-child(3n) {
